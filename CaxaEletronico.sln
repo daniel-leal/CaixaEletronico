@@ -16,7 +16,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronico.Api", "CaixaEletronico.Api\CaixaEletronico.Api.csproj", "{6C138F05-409D-4883-9318-D51943BD3F55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaixaEletronico.Api", "CaixaEletronico.Api\CaixaEletronico.Api.csproj", "{6C138F05-409D-4883-9318-D51943BD3F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronico.IntegrationTests", "CaixaEletronico.IntegrationTests\CaixaEletronico.IntegrationTests.csproj", "{4C15BB07-C5A1-4F64-B2DE-6B083402F81E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,10 @@ Global
 		{6C138F05-409D-4883-9318-D51943BD3F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C138F05-409D-4883-9318-D51943BD3F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C138F05-409D-4883-9318-D51943BD3F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C15BB07-C5A1-4F64-B2DE-6B083402F81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C15BB07-C5A1-4F64-B2DE-6B083402F81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C15BB07-C5A1-4F64-B2DE-6B083402F81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C15BB07-C5A1-4F64-B2DE-6B083402F81E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{0EFABF29-9DDE-4BF9-AC27-BE03423E199C} = {DE35736F-6187-43B1-B67A-02E7115EE2C7}
 		{8FACC8B0-A046-4B57-9394-26A599B771F8} = {BCD5977D-AE60-4A82-9ADA-996462A192EC}
 		{6C138F05-409D-4883-9318-D51943BD3F55} = {BCD5977D-AE60-4A82-9ADA-996462A192EC}
+		{4C15BB07-C5A1-4F64-B2DE-6B083402F81E} = {DE35736F-6187-43B1-B67A-02E7115EE2C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {788F7B2B-48B0-405C-9F47-1C1A44A4E0A8}
